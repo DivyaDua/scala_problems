@@ -7,15 +7,15 @@ import scala.util.control.Breaks.break
 object FinalMessage extends App {
     
     def solution(s: String): String = {
-        val c: Char = s(0);
+        val c: Char = s(0)
         if (c.isUpper) {
-            "upper";
+            "upper"
         } else if (c.isLower) {
-            "lower";
+            "lower"
         } else if (c.isDigit) {
-            "digit";
+            "digit"
         } else {
-            "other";
+            "other"
         }
     }
     
